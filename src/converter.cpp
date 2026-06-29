@@ -5,32 +5,32 @@ using namespace std;
 
 double inchesToCentimeters(double inches) {
     // TODO: return inches converted to centimeters.
-    return 0.0;
+    return inches * 2.54;
 }
 
 double centimetersToInches(double centimeters) {
     // TODO: return centimeters converted to inches.
-    return 0.0;
+    return centimeters / 2.54;
 }
 
 double poundsToKilograms(double pounds) {
     // TODO: return pounds converted to kilograms.
-    return 0.0;
+    return pounds * 0.453592;
 }
 
 double kilogramsToPounds(double kilograms) {
     // TODO: return kilograms converted to pounds.
-    return 0.0;
+    return kilograms / 0.453592;
 }
 
 double fahrenheitToCelsius(double fahrenheit) {
     // TODO: return Fahrenheit converted to Celsius.
-    return 0.0;
+    return (fahrenheit - 32) * 5.0 / 9.0;
 }
 
 double celsiusToFahrenheit(double celsius) {
     // TODO: return Celsius converted to Fahrenheit.
-    return 0.0;
+    return (celsius * 9.0 / 5.0) + 32;
 }
 
 bool isValidMenuChoice(int choice) {
