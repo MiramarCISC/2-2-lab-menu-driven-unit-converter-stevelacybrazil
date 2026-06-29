@@ -46,7 +46,7 @@ bool requiresNonNegativeValue(int choice) {
 }
 
 bool isValidValueForChoice(int choice, double value) {
-    if (requiresNonNgeativeValue(choice)) {
+    if (requiresNonNegativeValue(choice)) {
         return value >= 0;
     // TODO:
     // 1. Invalid menu choices should return false.
@@ -56,16 +56,13 @@ bool isValidValueForChoice(int choice, double value) {
 }
 
 void printMenu() {
-    cout << endl;
-    cout << "Unit Converter" << endl;
-    cout << endl;
-    cout << "1. Inches to centimeters" << endl;
-    cout << "2. Centimeters to inches" << endl;
-    cout << "3. Pounds to kilograms" << endl;
-    cout << "4. Kilograms to pounds" << endl;
-    cout << "5. Fahrenheit to Celsius" << endl;
-    cout << "6. Celsius to Fahrenheit" << endl;
-    cout << "0. Exit" << endl;
-    cout << endl;
+    cout << "\nUnit Converter\n\n";
+    cout << "1. Inches to centimeters\n";
+    cout << "2. Centimeters to inches\n";
+    cout << "3. Pounds to kilograms\n";
+    cout << "4. Kilograms to pounds\n";
+    cout << "5. Fahrenheit to Celsius\n";
+    cout << "6. Celsius to Fahrenheit\n";
+    cout << "0. Exit\n\n";
     cout << "Enter choice: ";
 }
